@@ -8,6 +8,8 @@ The left channel is low-pass filtered at 1 kHz and the right channel is high-pas
 
 See in attach the VHDL-source files, screenshots of the simulation of I2S-RXTX and IIR filter and the original iCEcube2 project files
 
+
+
 The ADC/DAC board is connect to the FPGA board via following pinout:
 
 PIN24 - ADC-MCLK  
