@@ -7,3 +7,14 @@ The whole systems runs at 96 kHz sampling-frequency with a FPGA system-clock of 
 The left channel is low-pass filtered at 1 kHz and the right channel is high-pass filtered at 1 kHz.
 
 See in attach the VHDL-source files, screenshots of the simulation of I2S-RXTX and IIR filter and the original iCEcube2 project files
+
+The ADC/DAC board is connect to the FPGA board via following pinout:
+
+PIN24 - ADC-MCLK  
+PIN23 - ADC-BCLK  
+PIN22 - ADC-LR  
+PIN21 - ADC-DATA  
+PIN20 - DAC-MCLK  
+PIN19 - DAC-BCLK  
+PIN18 - DAC-LR  
+PIN17 - DAC-DATA
