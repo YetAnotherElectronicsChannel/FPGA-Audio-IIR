@@ -1,6 +1,8 @@
 # FPGA-Audio-IIR
 
-I realized realtime IIR-filters for audio signal processing in a FPGA.
+I realized realtime IIR-filters for audio signal processing in a FPGA.  
+See my YouTube video here: https://www.youtube.com/watch?v=eE6Qwv997cs. 
+
 The used hardware is a TinyFPGA-BX board (see here: https://tinyfpga.com/ ) and a PMOD I2S2 Board (see here: https://store.digilentinc.com/pmod-i2s2-stereo-audio-input-and-output/)
 
 The whole systems runs at 96 kHz sampling-frequency with a FPGA system-clock of 25 MHz (internal PLL used).
